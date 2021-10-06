@@ -1,0 +1,47 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.rect-card {
+    width: 350px;
+    height: 500px;
+    background-color:  rgb(231, 231, 231);
+    margin: 20px 0px 40px 20px;
+    padding: 5px 5px 200px 5px;
+   
+}
+
+img  {
+    width: inherit;
+    height: inherit;
+}
+
+.title {
+    font-family: Verdana;
+    font-size: 14px;
+    color: black;
+    line-height: 24px;
+    text-transform: uppercase;
+    height: 48px;
+}
+
+.description {
+    font-family: Verdana;
+    font-size: 14px;
+    color: black;
+    line-height: 20px;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 70px;
+}
+
+.price {
+    font-family: Verdana;
+    font-size: 14px;
+    color: black;
+    vertical-align:baseline;
+}
